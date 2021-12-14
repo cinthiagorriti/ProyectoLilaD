@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(143, 119, 143);
+}
+
+
+ul{
+    list-style: none;
+      
+}
+
+
+.cabecera {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.cab_logo {
+    height: 100px;
+
+}
+
+
+
+
+.cab_nav_lista {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 90px; 
+    
+}
+
+
+body {
+    background-color: white;
+}
+
+.index-sec1{
+    min-height: 100vh;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: url(../Publico/imagenes/secc1\ presentacion\ \ 2.png);
+    border: 20px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.index-divsec1{
+    background-color: rgba(253, 227, 244, 0.246);
+    color: rgb(172, 166, 112);
+    text-align: center;
+    padding: 16px;
+}
+
+.index-h2sec1{
+    font-size: 40px;
+    padding: 5px;
+}
+
+.indexsec1p {
+    font-size: 25px;
+}
+
+
+.index-sec2 {
+    background-color:  rgba(172, 166, 112, 0.089);
+    min-height: 90vh;
+    border: 20px solid white ;
+    border-top: none;
+
+}
+
+.titulomasvend{
+    margin-bottom: 12px;
+    color: rgb(205, 182, 207);    
+    font-family: "Niramit", Sans-serif;
+    font-size: 60px;
+    padding: 15px; 
+    text-align: center;  
+}
+
+.productosmasvendidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+.producto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:  rgb(80, 61, 94) ;
+    background-color: white;
+    border: rgb(241, 233, 241) solid 5px;
+    padding: 20px;
+    height: 350px;
+    box-shadow:2px 2px 6px rgb(0 0 0 / 40%);
+}
+
+.img-producto{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.producdescrip{
+    height: 250px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: rgba(243, 198, 237, 0.356);
+}
+
+.footer-p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.whatsapp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    right:40px ;
+    bottom:40px ;
+    color:white;
+    background-color: rgb(76, 192, 76);
+    border-radius: 50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow:2px 2px 6px rgb(0 0 0 / 40%);
+}
+.footer {
+    background-color: rgb(242, 229, 248);
+    color: #635963;
+    display: flex;
+    flex-direction: column;
+    padding:20px ;
+   
+}.footer-div{
+    display: flex;
+    justify-content: center;
+    gap: 15px ;  
+}
+
+.whatsapp-icon {
+    margin-top:13px;
+}
+
+.index-sec3{
+    min-height: 80vh;
+    border: 20px solid white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secc3boton{
+    display: inline-block;
+    background-color: beige;
+    padding: 15px;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 20px;
+}
+
+video{
+    width: 80%;
+    object-fit: cover;
+}
+
+.seccionideas{
+    width: 50%;
+    text-align: center;
+}
+
+.secc3h2{
+    margin-bottom: 12px;
+    color: rgb(128, 117, 87);    
+    font-size: 40px;
+}
+
+.secc3p{
+    color: rgb(128, 117, 87);
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.sectienda{
+    border: 20px solid white;
+}
+.titulotienda{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(205, 182, 207);
+    background-color: rgba(89, 26, 141, 0.089);
+}
+
+.tiendaproductos{
+    border: 20px solid white;
+    border-top: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.formulario{
+    padding: 100px 0;
+}
+.mapa{
+    width: 100%;
+}
+
+.bohotexto{
+    text-align: center;
+    padding: 10px 80px 20px;
+}
+
+.h1boho{
+    color: #aca670;
+}
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.estilominimalista{
+    margin-top: 100px;
+}
+.estilos{
+    margin: 15px;
+}
+
+.h5des{
+    color: rgb(100, 66, 133);
+}
+
+.descrip{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1250px) {
+    .cabecera{
+        flex-direction: column;
+    }
+    .cab_nav_lista{
+        gap: 15px;
+        font-size: 15px;
+    }
+
+    
+    .productosmasvendidos{
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    .index-sec2 {
+        min-height: 200vh;
+    }
+    .titulomasvend{
+        font-size: 40px;
+    }
+
+    .index-sec3{
+        flex-direction: column;
+        gap: 15px;
+    }
+   
+    .seccionideas {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:900px) {
+
+    .titulotienda{
+        font-size: 30px;
+    }
+    .tiendaproductos{
+        grid-template-columns: repeat(2, 1fr);
+    }  
+}
+
+@media (max-width:568px) {
+    .titulotienda{
+        font-size: 30px;
+    }
+    .tiendaproductos{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    } 
+
+    
+}
